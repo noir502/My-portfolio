@@ -1,0 +1,217 @@
+html,body{
+    
+    margin: 0;
+    padding: 0;
+    background:linear-gradient( #4E69B8ff, #F3A1A1ff, #6E639Cff, #BF91B9ff, #1E1A33ff);
+    background-attachment: fixed;
+    animation: both 10s linear infinite;
+    
+}
+nav ul{
+    list-style: none;
+    padding:0;
+    margin: 0;
+    text-align: right;
+    font-size: large;
+     
+
+}
+li{
+    display: inline;
+    margin-inline: 0.5rem;
+    padding-inline: 0.5rem;
+}
+li a{
+    color: green;
+}
+header{
+    color: gold;
+    padding: 0.5rem;
+    margin: 0.5rem;
+  
+}
+main{
+    text-align: center;
+    font-size: medium;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #000;
+}
+.hero img{
+    width:600px;
+    height:400px;
+    border-radius: 12px;
+    padding:0;
+    margin:0;
+    box-shadow:0 6px 16px greenyellow;
+    
+
+
+}
+.hero img:hover{
+    margin: 1rem;
+   transform:translateX(10rem) rotate(5deg);  
+ animation: both 1s linear infinite;
+
+
+   
+}
+button {
+  
+  padding: 1rem 2rem;
+  font-size: medium;
+  border-radius: 20px;
+  background-color: blue;
+}
+button a{
+     color: white;
+      text-decoration: none;
+}
+a:hover{
+    color: salmon;
+    cursor: pointer;
+}
+footer{
+    font-size: medium;
+    color: #03045E;
+    font-family: cursive;
+    max-width: 100%;
+}
+
+footer li{
+    display: block;
+    border: 1px solid black;
+    float: left;
+   margin-right: 0.5rem;
+   color: white;
+   background-color: black;
+   font-size: small;
+}
+footer a{
+    color: white;
+    display: flex;
+    align-items: vertical;
+    text-decoration: double;
+    
+ 
+}
+.foot{
+    
+    text-align: end;
+    color: darkmagenta;
+    font-size: large;
+min-height: 100%;
+}
+.foot a{
+    color: black;
+    text-decoration: none;
+    text-align: center;
+
+}
+.foot a:hover{
+    color: whitesmoke;
+}
+
+    
+
+.about{
+   
+    text-align: left;
+  
+}
+.cards{
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 2rem 1rem;
+    box-sizing: border-box;
+}
+
+.card{
+    width: 220px;
+    background: rgba(255,255,255,0.96);
+    border-radius: 12px;
+    box-shadow: 0 6px 16px rgba(0,0,0,0.08);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    text-align: center;
+}
+
+.card img{
+    width: 100%;
+    height: 140px;
+    object-fit: cover;
+    display: block;
+}
+
+.card h1{
+    font-size: 1rem;
+    margin: 0.5rem 0 0.25rem 0;
+    padding: 0 0.6rem;
+}
+
+.card p{
+    font-size: 0.9rem;
+    color: #444;
+    margin: 0 0 0.6rem 0;
+    padding: 0 0.6rem;
+    flex: 1 0 auto;
+}
+
+.card button{
+    border: none;
+    background: #112A46;
+    color: #fff;
+    padding: 0.5rem 0.85rem;
+    margin: 0.6rem auto 0.9rem auto;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.card button:hover{
+    transform: translateY(-1px);
+}
+
+@media (max-width: 520px){
+    .card{ width: 100%; max-width: 420px; }
+    .card img{ height: 180px; }
+}
+.main{
+    color: #23295Bff;
+  text-align: center;
+
+ 
+}
+fieldset{
+max-width: 600px;
+margin-bottom: 0;
+border: 2px solid white;
+display: inline;
+background-color: gray;
+color:#23295Bff;
+position: relative;
+left: 50%;
+
+}
+fieldset button{
+    color: white;
+}
+legend{
+    font-size: 2rem;
+    color: #23295Bff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    line-height: 1.5;
+}
+.contact{
+    color:#23295Bff;
+    font-size: 1rem;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ line-height: 1rem;
+ text-align: left;
+ 
+
+   
+}
+
